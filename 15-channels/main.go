@@ -16,7 +16,7 @@ func main() {
 	c := make(chan int)
 	go sum(s[:len(s)/2], c)
 	go sum(s[len(s)/2:], c)
-	x, y := <-c, <-c // receive from c
+	x, y := <-c, <-c // receive from c, also this is a blocking statement
 
 	fmt.Println(x, y, x+y)
 }
