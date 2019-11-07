@@ -20,4 +20,9 @@ func main() {
 	// to bypass a return variable
 	// a, _ = swap("hello", "world")
 	// fmt.Println(a)
+
+	//IIFE, anonymous, and closure
+	//func() {
+	//	fmt.Println("Anonymous function and Closure demo")
+	//}()
 }
