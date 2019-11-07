@@ -16,4 +16,8 @@ func main() {
 	a, b := swap("hello", "world")
 	fmt.Println(a)
 	fmt.Println(b)
+
+	// to bypass a return variable
+	// a, _ = swap("hello", "world")
+	// fmt.Println(a)
 }
